@@ -45,4 +45,4 @@ Thank you for visiting this project and exploring The Dark Atlas.
 
 I hope you enjoy opening the files, following the clues, discovering the stories, and getting lost in the mysteries that refuse to disappear.
 
-© 2026 Riyad. All Rights Reserved.
+# © 2026 Riyad. All Rights Reserved.
