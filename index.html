@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Dark Atlas, An Archive of the Unexplained</title>
+  <meta name="description" content="A cabin archive of mysteries, built by Riyad. Case files on Bigfoot, Atlantis, the Bermuda Triangle, Dyatlov Pass, the Voynich Manuscript, and more.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather:ital,wght@0,700;0,900;1,700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=calm5">
+</head>
+<body data-page="cabin" data-root="">
+  <div id="gate" class="gate" aria-hidden="true">
+    <div class="gate-glow"></div>
+    <p class="gate-mark">THE DARK ATLAS</p>
+  </div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="mast">
+    <a class="mark" href="#/">
+      THE DARK ATLAS
+      <small>Private Archive</small>
+    </a>
+    <nav>
+      <a href="#/archive" data-nav="archive">The Cases</a>
+      <a href="#/map" data-nav="map">The Map</a>
+      <a href="#/hearth" data-nav="hearth">The Hearth</a>
+      <a href="#/riyad" data-nav="riyad">Riyad</a>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <aside class="sound-dock" aria-label="Cabin sound">
+    <button class="horn" id="soundBtn" type="button" aria-pressed="false" aria-label="Mute cabin sound">
+      <span class="horn-plaque" aria-hidden="true"></span>
+      <span class="horn-label" id="soundHint">Sound on</span>
+    </button>
+  </aside>
+
+  <footer class="sill">
+    <span>Built in the woods by Riyad</span>
+    <a href="#/riyad">Credits</a>
+    <span>Not all that is lost wishes to be found</span>
+  </footer>
+
+  <script src="cases.js"></script>
+  <script src="common.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
